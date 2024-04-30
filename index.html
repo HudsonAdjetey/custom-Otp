@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom OTP</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- container -->
+    <main class="main__container">
+      <header>
+        <nav>
+          <span class="logo">Swift Stream</span>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Blog</li>
+          </ul>
+          <button>Contact</button>
+        </nav>
+      </header>
+      <form>
+
+      <div class="form__container">
+        <!-- form header -->
+        <div class="header-title">
+          <h1 class="title-header">Enter Your Desk</h1>
+          <p>Connect Your Account. Stream Fast</p>
+        </div>
+        <!-- form header -->
+
+        <!-- form input -->
+        <div class="input-field">
+          <input
+            type="email"
+            role="form"
+            aria-valuetext=""
+            class="email-input"
+            placeholder="Enter Email Address"
+          />
+        </div>
+        <!-- form input -->
+        <!-- form input -->
+
+        <div class="input-field">
+          <input
+            type="password"
+            role="form"
+            aria-valuetext=""
+            class="password-input"
+            placeholder="Enter Password"
+          />
+          <span class="view-psw">see</span>
+        </div>
+        <!-- form input -->
+            <div class="sbtn">
+                <button type="submit">Submit</button>
+                <a href="">Forgotten Password?</a>
+            </div>
+        </form>
+      </div>
+    </main>
+    <!-- container -->
+
+    <!-- pop up -->
+    <div class="pop-menu">
+        <div class="content-pop">
+            <button class="close-btn" >X</button>
+            <h2 class="title-pop">Verification Code</h2>
+            <p>Please type the verification code sent to <span class="email-view" ></span> </p>
+
+            <div class="arr-inputs">
+                <!-- <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text"> -->
+            </div>
+            <button class="validate-btn"  disabled="true">Validate</button>
+        </div>
+    </div>
+    <!-- pop up -->
+
+    <!-- script file -->
+    <script src="./index.js"></script>
+  </body>
+</html>
